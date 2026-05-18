@@ -69,6 +69,10 @@ export default function Hero() {
           {/* Call to Action - Neo-Brutalist Button */}
           <VStack spacing={6}>
             <Button
+              as="a"
+              href="https://whatsform.com/2XYZje"
+              target="_blank"
+              rel="noopener noreferrer"
               bg="orange.400"
               color="gray.900"
               size="lg"
