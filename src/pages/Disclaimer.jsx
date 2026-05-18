@@ -56,9 +56,9 @@ export default function Disclaimer() {
               Program ini adalah sesi <em>sharing</em> dan pelatihan berbasis pengetahuan praktis di bidang Akuntansi dan ERP. Seluruh materi yang disampaikan merupakan pengalaman dan pandangan pribadi dari pembicara, bukan merupakan nasihat keuangan, akuntansi, atau hukum yang bersifat formal dan mengikat secara profesional.
             </Text>
 
-            <Heading as="h2" size="md" color="orange.400" mt={4}>2. Jaminan Hasil</Heading>
+            <Heading as="h2" size="md" color="orange.400" mt={4}>2. Jaminan Penempatan Kerja</Heading>
             <Text>
-              Kami tidak menjamin bahwa keikutsertaan dalam program ini akan secara langsung menghasilkan penempatan kerja, kenaikan karier, atau pendapatan tertentu. Hasil yang dicapai oleh setiap peserta sangat bergantung pada usaha, dedikasi, latar belakang, dan kondisi pasar tenaga kerja masing-masing individu.
+              KELASINDUSTRI.ID melalui program Job Connector berkomitmen untuk membantu peserta mendapatkan penempatan kerja sesuai bidang yang diminati. Kami menyediakan dukungan penuh mulai dari pembekalan keterampilan teknis dan profesional, hingga koneksi langsung dengan mitra perusahaan dan industri yang relevan. Komitmen kami bukan sekadar pelatihan — kami hadir menemani perjalanan karier Anda hingga berhasil masuk dunia kerja.
             </Text>
 
             <Heading as="h2" size="md" color="orange.400" mt={4}>3. Keakuratan Materi</Heading>
