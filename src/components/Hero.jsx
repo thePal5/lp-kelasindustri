@@ -61,7 +61,7 @@ export default function Hero() {
 
           {/* Target Audience Badge rotated */}
           <Box bg="gray.900" border="2px solid" borderColor="whiteAlpha.300" color="white" px={5} py={2} rounded="xl" display="inline-block" mb={12} boxShadow="sm">
-            <Text fontSize={{ base: "sm", md: "md" }} fontWeight="bold">
+            <Text fontSize={{ base: "xs", md: "md" }} fontWeight="bold">
               ✨ {hero.targetAudience} ✨
             </Text>
           </Box>

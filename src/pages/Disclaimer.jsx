@@ -53,7 +53,7 @@ export default function Disclaimer() {
 
             <Heading as="h2" size="md" color="orange.400" mt={4}>1. Sifat Program</Heading>
             <Text>
-              Program ini adalah sesi <em>sharing</em> dan pelatihan berbasis pengetahuan praktis di bidang Akuntansi dan ERP. Seluruh materi yang disampaikan merupakan pengalaman dan pandangan pribadi dari pembicara, bukan merupakan nasihat keuangan, akuntansi, atau hukum yang bersifat formal dan mengikat secara profesional.
+              Program ini adalah sesi <em>sharing</em> dan pelatihan berbasis pengetahuan praktis dan Praktik. Seluruh materi yang disampaikan merupakan pengalaman dan pandangan pribadi dari pembicara, bukan merupakan nasihat keuangan, akuntansi, atau hukum yang bersifat formal dan mengikat secara profesional.
             </Text>
 
             <Heading as="h2" size="md" color="orange.400" mt={4}>2. Jaminan Penempatan Kerja</Heading>
@@ -66,14 +66,14 @@ export default function Disclaimer() {
               Meskipun kami berupaya untuk menyajikan materi yang akurat dan terkini, informasi yang diberikan dalam acara ini dapat berubah seiring perkembangan regulasi, teknologi, dan kebutuhan industri. Peserta disarankan untuk selalu melakukan verifikasi mandiri sebelum menerapkan informasi yang didapat.
             </Text>
 
-            <Heading as="h2" size="md" color="orange.400" mt={4}>4. Tautan Pihak Ketiga</Heading>
+            <Heading as="h2" size="md" color="orange.400" mt={4}>4. Komitmen terhadap Sumber & Referensi</Heading>
             <Text>
-              Program ini mungkin merujuk pada sumber daya atau platform dari pihak ketiga. Kami tidak bertanggung jawab atas konten, kebijakan privasi, atau praktik dari situs atau layanan pihak ketiga tersebut.
+              Setiap referensi atau platform pihak ketiga yang kami rekomendasikan dalam program ini telah kami kurasi dengan cermat berdasarkan relevansi dan kualitasnya. Kami berkomitmen untuk hanya menyarankan sumber-sumber terpercaya yang mendukung perjalanan belajar dan karier Anda di bidang Akuntansi dan ERP.
             </Text>
 
-            <Heading as="h2" size="md" color="orange.400" mt={4}>5. Pembatasan Tanggung Jawab</Heading>
+            <Heading as="h2" size="md" color="orange.400" mt={4}>5. Komitmen Penuh dari Penyelenggara</Heading>
             <Text>
-              PT. EBERSHINE TALENTA INTEGRASI dan seluruh pemateri tidak bertanggung jawab atas segala kerugian langsung maupun tidak langsung yang mungkin timbul akibat penggunaan informasi yang diperoleh dari program pelatihan ini.
+              PT. EBERSHINE TALENTA INTEGRASI bersama seluruh pemateri berkomitmen penuh untuk menyampaikan program pelatihan yang berkualitas, akuntabel, dan berdampak nyata. Kami hadir sebagai mitra yang serius mendukung pertumbuhan karier Anda — bukan sekadar menyelenggarakan acara, melainkan memastikan setiap peserta mendapat nilai dan manfaat yang maksimal dari setiap sesi.
             </Text>
 
             <Heading as="h2" size="md" color="orange.400" mt={4}>6. Hubungi Kami</Heading>
