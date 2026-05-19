@@ -8,31 +8,29 @@ export default function Navbar() {
         as="nav"
         w="100%"
         maxW="container.lg"
-        bg="whiteAlpha.50"
+        bg="whiteAlpha.800"
         backdropFilter="blur(24px)"
         border="1px solid"
-        borderColor="whiteAlpha.200"
+        borderColor="gray.200"
         borderRadius="full"
         px={6}
         py={3}
-        boxShadow="0 4px 30px rgba(0, 0, 0, 0.5)"
+        boxShadow="0 4px 30px rgba(0, 0, 0, 0.06)"
       >
         {/* Desktop Layout */}
         <Flex display={{ base: "none", md: "flex" }} justify="space-between" align="center">
-          <Box bg="white" p={1.5} rounded="md" boxShadow="sm">
-            <Image src={landingData.logo} alt="Logo" h="28px" objectFit="contain" />
-          </Box>
+          <Image src={landingData.logo} alt="Logo" h="32px" objectFit="contain" />
           <HStack spacing={8}>
             {landingData.navLinks.map((link, index) => (
               <Link
                 key={index}
                 href={link.href}
-                color="whiteAlpha.900"
+                color="gray.700"
                 fontWeight="bold"
                 letterSpacing="wide"
                 textTransform="uppercase"
                 fontSize="xs"
-                _hover={{ color: "orange.400", textDecoration: "none", transform: "scale(1.05)" }}
+                _hover={{ color: "orange.500", textDecoration: "none", transform: "scale(1.05)" }}
                 transition="all 0.2s"
               >
                 {link.label}
@@ -43,9 +41,7 @@ export default function Navbar() {
 
         {/* Mobile Layout — logo di tengah, tanpa hamburger */}
         <Flex display={{ base: "flex", md: "none" }} justify="center" align="center">
-          <Box bg="white" p={1} rounded="sm" boxShadow="sm">
-            <Image src={landingData.logo} alt="Logo" h="24px" objectFit="contain" />
-          </Box>
+          <Image src={landingData.logo} alt="Logo" h="26px" objectFit="contain" />
         </Flex>
       </Box>
     </Box>

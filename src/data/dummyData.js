@@ -10,7 +10,7 @@ export const landingData = {
   hero: {
     badge: "Online Event",
     targetAudience: "Meski Tanpa Pengalaman",
-    heading: "Bagaimana Freshgraduate Akuntansi dan Mahasiswa Akuntansi Bisa Segera Mendapatkan Pekerjaan Sesuai Bidangnya",
+    heading: "Bagaimana Freshgraduate dan Mahasiswa Akuntansi Bisa Segera Mendapatkan Pekerjaan Sesuai Bidangnya",
     ctaText: "Daftar Sekarang",
     subCtaText: "Tidak Dipungut Biaya!",
   },

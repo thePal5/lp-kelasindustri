@@ -23,7 +23,7 @@ export default function Hero() {
            position="absolute" top="10%" left="0%" display={{ base: "none", md: "block" }}
            animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
         >
-           <Box bg="purple.500" p={3} rounded="2xl" transform="rotate(-15deg)" border="2px solid" borderColor="whiteAlpha.400">
+           <Box bg="purple.500" p={3} rounded="2xl" transform="rotate(-15deg)" border="2px solid" borderColor="purple.300" boxShadow="lg">
              <StarIcon w={8} h={8} color="white" />
            </Box>
         </MotionBox>
@@ -31,7 +31,7 @@ export default function Hero() {
            position="absolute" bottom="15%" right="5%" display={{ base: "none", md: "block" }}
            animate={{ y: [0, 20, 0], rotate: [0, -10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
         >
-           <Box bg="orange.400" p={3} rounded="full" border="2px solid" borderColor="whiteAlpha.400">
+           <Box bg="orange.400" p={3} rounded="full" border="2px solid" borderColor="orange.300" boxShadow="lg">
              <Text fontSize="2xl">🔥</Text>
            </Box>
         </MotionBox>
@@ -39,8 +39,8 @@ export default function Hero() {
         <MotionBox initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}>
           {/* Badge */}
           <Flex justify="center" mb={8}>
-            <Box bg="whiteAlpha.100" backdropFilter="blur(10px)" border="1px solid" borderColor="whiteAlpha.300" px={6} py={2} rounded="full">
-              <Text color="orange.400" fontWeight="bold" letterSpacing="widest" textTransform="uppercase" fontSize="sm">
+            <Box bg="orange.50" border="1px solid" borderColor="orange.200" px={6} py={2} rounded="full">
+              <Text color="orange.500" fontWeight="bold" letterSpacing="widest" textTransform="uppercase" fontSize="sm">
                 • {hero.badge} •
               </Text>
             </Box>
@@ -54,13 +54,13 @@ export default function Hero() {
             lineHeight="1.2"
             mb={6}
             letterSpacing="tight"
-            color="white"
+            color="gray.900"
           >
             {hero.heading}
           </Heading>
 
-          {/* Target Audience Badge rotated */}
-          <Box bg="gray.900" border="2px solid" borderColor="whiteAlpha.300" color="white" px={5} py={2} rounded="xl" display="inline-block" mb={12} boxShadow="sm">
+          {/* Target Audience Badge */}
+          <Box bg="gray.100" border="2px solid" borderColor="gray.200" color="gray.800" px={5} py={2} rounded="xl" display="inline-block" mb={12} boxShadow="sm">
             <Text fontSize={{ base: "xs", md: "md" }} fontWeight="bold">
               ✨ {hero.targetAudience} ✨
             </Text>
@@ -74,7 +74,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               bg="orange.400"
-              color="gray.900"
+              color="white"
               size="lg"
               px={12}
               py={8}
@@ -82,16 +82,16 @@ export default function Hero() {
               fontWeight="black"
               rounded="2xl"
               border="3px solid"
-              borderColor="whiteAlpha.900"
-              boxShadow="6px 6px 0px rgba(255, 255, 255, 0.9)"
-              _hover={{ bg: "orange.300", transform: "translate(-2px, -2px)", boxShadow: "8px 8px 0px rgba(255, 255, 255, 1)" }}
-              _active={{ transform: "translate(4px, 4px)", boxShadow: "0px 0px 0px rgba(255,255,255,1)" }}
+              borderColor="gray.900"
+              boxShadow="6px 6px 0px rgba(0, 0, 0, 0.85)"
+              _hover={{ bg: "orange.500", transform: "translate(-2px, -2px)", boxShadow: "8px 8px 0px rgba(0, 0, 0, 0.9)" }}
+              _active={{ transform: "translate(4px, 4px)", boxShadow: "0px 0px 0px rgba(0,0,0,1)" }}
               transition="all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275)"
             >
               {hero.ctaText}
             </Button>
-            <Box bg="whiteAlpha.200" px={4} py={1} rounded="full">
-               <Text color="whiteAlpha.900" fontSize="sm" fontWeight="bold" letterSpacing="wide" textTransform="uppercase">
+            <Box bg="gray.100" px={4} py={1} rounded="full" border="1px solid" borderColor="gray.200">
+               <Text color="gray.600" fontSize="sm" fontWeight="bold" letterSpacing="wide" textTransform="uppercase">
                  {hero.subCtaText}
                </Text>
             </Box>

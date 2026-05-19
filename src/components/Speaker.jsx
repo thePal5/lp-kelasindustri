@@ -21,7 +21,7 @@ export default function Speaker() {
           gap={{ base: 8, md: 12 }}
         >
           {/* Speaker Image Box */}
-          <Box w={{ base: "100%", md: "45%" }} maxW="400px" bg="whiteAlpha.100" p={4} rounded="xl" border="1px solid" borderColor="whiteAlpha.200">
+          <Box w={{ base: "100%", md: "45%" }} maxW="400px" bg="gray.50" p={4} rounded="xl" border="1px solid" borderColor="gray.200" boxShadow="sm">
             <Image
               src={speaker.image}
               alt={speaker.name}
@@ -32,17 +32,17 @@ export default function Speaker() {
               mb={4}
             />
             <VStack spacing={0}>
-              <Text color="white" fontWeight="bold" fontSize="xl">{speaker.name}</Text>
-              <Text color="orange.400" fontSize="sm">{speaker.role}</Text>
+              <Text color="gray.900" fontWeight="bold" fontSize="xl">{speaker.name}</Text>
+              <Text color="orange.500" fontSize="sm">{speaker.role}</Text>
             </VStack>
           </Box>
 
           {/* Divider Line (Vertical on Desktop, Horizontal on Mobile) */}
-          <Divider orientation={{ base: "horizontal", md: "vertical" }} h={{ base: "1px", md: "250px" }} w={{ base: "100%", md: "1px" }} borderColor="whiteAlpha.400" />
+          <Divider orientation={{ base: "horizontal", md: "vertical" }} h={{ base: "1px", md: "250px" }} w={{ base: "100%", md: "1px" }} borderColor="gray.300" />
 
           {/* Speaker Description */}
           <Box w={{ base: "100%", md: "45%" }}>
-            <Text color="whiteAlpha.800" fontSize={{ base: "md", md: "lg" }} lineHeight="tall" textAlign="justify">
+            <Text color="gray.600" fontSize={{ base: "md", md: "lg" }} lineHeight="tall" textAlign="justify">
               {speaker.description}
             </Text>
           </Box>

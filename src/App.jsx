@@ -12,8 +12,8 @@ import Ketentuan from "./pages/Ketentuan";
 
 function App() {
   return (
-    // Background utama Hitam sesuai Rules #1
-    <Box bg="black" minH="100vh" color="white" position="relative" overflowX="hidden" scrollBehavior="smooth">
+    // Background utama Putih — Light Theme
+    <Box bg="white" minH="100vh" color="gray.900" position="relative" overflowX="hidden" scrollBehavior="smooth">
       <Ornaments />
       <Navbar />
       
