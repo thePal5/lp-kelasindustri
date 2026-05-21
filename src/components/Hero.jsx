@@ -17,24 +17,24 @@ export default function Hero() {
 
   return (
     <Box id="home" pt={{ base: "100px", md: "120px" }} pb={{ base: 10, md: 20 }} position="relative" zIndex={10} overflow="hidden">
-      <Container maxW="6xl" textAlign="center" position="relative">
-        
+      <Container maxW="7xl" textAlign="center" position="relative">
+
         {/* Floating decorative elements */}
         <MotionBox
-           position="absolute" top="10%" left="0%" display={{ base: "none", md: "block" }}
-           animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+          position="absolute" top="10%" left="0%" display={{ base: "none", md: "block" }}
+          animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
         >
-           <Box bg="purple.500" p={3} rounded="2xl" transform="rotate(-15deg)" border="2px solid" borderColor="purple.300" boxShadow="lg">
-             <StarIcon w={8} h={8} color="white" />
-           </Box>
+          <Box bg="purple.500" p={3} rounded="2xl" transform="rotate(-15deg)" border="2px solid" borderColor="purple.300" boxShadow="lg">
+            <StarIcon w={8} h={8} color="white" />
+          </Box>
         </MotionBox>
         <MotionBox
-           position="absolute" bottom="15%" right="5%" display={{ base: "none", md: "block" }}
-           animate={{ y: [0, 20, 0], rotate: [0, -10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+          position="absolute" bottom="15%" right="5%" display={{ base: "none", md: "block" }}
+          animate={{ y: [0, 20, 0], rotate: [0, -10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
         >
-           <Box bg="orange.400" p={3} rounded="full" border="2px solid" borderColor="orange.300" boxShadow="lg">
-             <Text fontSize="2xl">🔥</Text>
-           </Box>
+          <Box bg="orange.400" p={3} rounded="full" border="2px solid" borderColor="orange.300" boxShadow="lg">
+            <Text fontSize="2xl">🔥</Text>
+          </Box>
         </MotionBox>
 
         <MotionBox initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}>
@@ -50,7 +50,7 @@ export default function Hero() {
           {/* Heading */}
           <Heading
             as="h1"
-            fontSize={{ base: "xl", md: "4xl", lg: "6xl" }}
+            fontSize={{ base: "2xl", md: "4xl", lg: "6xl" }}
             fontWeight="black"
             lineHeight="1.2"
             mb={6}
@@ -90,9 +90,9 @@ export default function Hero() {
               {hero.ctaText}
             </Button>
             <Box bg="gray.100" px={4} py={1} rounded="full" border="1px solid" borderColor="gray.200">
-               <Text color="gray.600" fontSize="sm" fontWeight="bold" letterSpacing="wide" textTransform="uppercase">
-                 {hero.subCtaText}
-               </Text>
+              <Text color="gray.600" fontSize="sm" fontWeight="bold" letterSpacing="wide" textTransform="uppercase">
+                {hero.subCtaText}
+              </Text>
             </Box>
           </VStack>
         </MotionBox>
