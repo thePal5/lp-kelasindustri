@@ -1,5 +1,7 @@
-import { Box, Container, Flex, Image, Text, VStack, Divider } from "@chakra-ui/react";
+import { Box, Container, Flex, Image, Text, VStack, Divider, Link, Icon } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+// Pastikan Anda sudah menginstall react-icons
+import { FaLinkedin } from "react-icons/fa";
 import { landingData } from "../data/dummyData";
 
 const MotionFlex = motion.create(Flex);
@@ -31,9 +33,26 @@ export default function Speaker() {
               rounded="lg"
               mb={4}
             />
-            <VStack spacing={0}>
-              <Text color="gray.900" fontWeight="bold" fontSize="xl">{speaker.name}</Text>
-              <Text color="orange.500" fontSize="sm">{speaker.role}</Text>
+            {/* VStack diperbarui untuk menambahkan margin bawah/atas dan icon */}
+            <VStack spacing={2} pb={2}>
+              <VStack spacing={0}>
+                <Text color="gray.900" fontWeight="bold" fontSize="xl">{speaker.name}</Text>
+                <Text color="orange.500" fontSize="sm">{speaker.role}</Text>
+              </VStack>
+
+              {/* Tautan LinkedIn Baru */}
+              <Link
+                href="https://www.linkedin.com/in/prayitno-scap-2367661ba"
+                isExternal // isExternal membuat link terbuka di tab baru (target="_blank")
+              >
+                <Icon
+                  as={FaLinkedin}
+                  boxSize={6}
+                  color="blue.600"
+                  _hover={{ color: "blue.800" }}
+                  transition="color 0.2s"
+                />
+              </Link>
             </VStack>
           </Box>
 

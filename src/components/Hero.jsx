@@ -1,4 +1,5 @@
 import { Box, Container, Heading, Text, Button, Flex, VStack, Icon } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { landingData } from "../data/dummyData";
 
@@ -69,10 +70,8 @@ export default function Hero() {
           {/* Call to Action - Neo-Brutalist Button */}
           <VStack spacing={6}>
             <Button
-              as="a"
-              href="https://whatsform.com/2XYZje"
-              target="_blank"
-              rel="noopener noreferrer"
+              as={Link}
+              to="/register"
               bg="orange.400"
               color="white"
               size="lg"

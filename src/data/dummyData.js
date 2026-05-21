@@ -18,7 +18,7 @@ export const landingData = {
     name: "Prayitno",
     role: "Pembicara",
     image: speakerImage,
-    description: "Prayitno adalah praktisi ERP(Enterprise Resource Planning) dan akuntansi bisnis FnB  Retail, sekaligus Founder SCAP ERP, yang sehari-hari terlibat langsung dalam implementasi sistem di bisnis kuliner (FnB), Retail, Theme Park, Koperasi, Hotel dan Rumah Sakit Selama bertahun-tahun di industri.",
+    description: "Praktisi ERP (Enterprise Resource Planning) dan akuntansi bisnis FnB & Retail, sekaligus Founder SCAP ERP. Puluhan tahun, terlibat langsung dalam implementasi sistem bisnis di berbagai industri seperti FnB, Retail, Theme Park, Koperasi, Hotel, hingga Rumah Sakit, membantu perusahaan membangun operasional dan laporan keuangan yang lebih rapi, efisien, dan terintegrasi.",
   },
   footer: {
     text: "© PT. EBERSHINE TALENTA INTEGRASI.",
